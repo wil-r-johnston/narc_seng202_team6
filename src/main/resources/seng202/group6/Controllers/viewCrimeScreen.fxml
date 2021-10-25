@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.group6.Controllers.ViewController">
+    <children>
+        <Text layoutX="46.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Case Number" />
+        <Text layoutX="47.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date " />
+        <Text layoutX="46.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Block" />
+        <Text layoutX="47.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IUCR" />
+        <Text layoutX="46.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primary Description" />
+        <Text layoutX="46.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Secondary Description" />
+        <Text layoutX="46.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location" />
+        <Text layoutX="46.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arrest" wrappingWidth="55.2119140625" />
+        <Text layoutX="47.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ward" />
+        <Text layoutX="46.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FBI CD" />
+        <Text layoutX="46.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Latitude" />
+        <Text layoutX="46.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Domestic" />
+        <Text layoutX="46.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beat" />
+        <Text layoutX="46.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Longitude" />
+        <Text fx:id="caseNumber" layoutX="266.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="date" layoutX="266.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="block" layoutX="266.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="IUCR" layoutX="266.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="primaryDescription" layoutX="266.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="secondaryDescription" layoutX="266.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="location" layoutX="266.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="arrest" layoutX="266.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="domestic" layoutX="266.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="beat" layoutX="266.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="ward" layoutX="266.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="fbiCD" layoutX="266.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="latitude" layoutX="266.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="longitude" layoutX="266.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="204.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detailed Crime Information">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="imageView" fitHeight="182.0" fitWidth="261.0" layoutX="392.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</AnchorPane>

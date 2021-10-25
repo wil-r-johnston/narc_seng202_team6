@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="EmbedMapsStyle.css" />
+    <script src="EmbedMapsScript.js"></script>
+    <script src="JavascriptConfig.js"></script>
+  </head>
+  <body>
+    <div id="ac-card">
+      <input id="autocomplete" placeholder="Enter an Address" type="text"/>
+    </div>
+    <div id="map"></div>
+    
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script>getApiKey()</script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+/* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+#autocomplete {
+  width: 100%;
+}
+
+#ac-card {
+  margin: 10px 0px 0 10px;
+  width: 50%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.view-link {
+  display: none !important;
+}
+
+a[title="Open this area in Google Maps (opens a new window)"] {
+  display: none !important;
+}
